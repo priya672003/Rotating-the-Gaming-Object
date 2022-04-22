@@ -38,6 +38,32 @@ Stop
 
 ## Program:
 
+```python3
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class princy : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 40*Time.deltaTime);
+    }
+}
+```
+
 ## Output:
 
+![e1](https://user-images.githubusercontent.com/81132849/164706561-410930bc-cbbd-4201-ac10-6e29e282197c.png)
+
+
 ## Result:
+
+Thus,the 3D application for rotating the gaming objects in unity is developed successfully.
